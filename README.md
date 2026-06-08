@@ -115,7 +115,7 @@ Precise spatio-temporal grounding: time representation, long-video efficiency, s
 | 2025 | NeurIPS | UniTime | [Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](https://arxiv.org/abs/2506.18883) | [Project](https://lzq5.github.io/UniTime/) |
 | 2025 | arXiv | Video-OPD | [Video-OPD: Efficient Post-training of Multimodal Large Language Models for Temporal Video Grounding via On-policy Distillation](https://arxiv.org/abs/2602.02994) | - |
 | 2026 | CVPR | TimeLens | [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) | [Code](https://github.com/TencentARC/TimeLens) |
-| 2026 | ICML | OMTG | [Towards One-to-Many Temporal Grounding](https://arxiv.org/abs/2606.06294) | - |
+| 2026 | ICML | OMTG | [Towards One-to-Many Temporal Grounding](https://arxiv.org/abs/2606.06294) | [Code](https://insomniaaac.github.io/OMTG/) |
 
 **Spatio-temporal grounding & video referring**
 
