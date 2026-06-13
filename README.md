@@ -183,7 +183,7 @@ Whole-video, dense, and region-level captioning over visual-token sequences. Inc
 | 2025 | NeurIPS | Strefer | [Strefer: Empowering Video LLMs with Space-Time Referring and Reasoning via Synthetic Instruction Data](https://arxiv.org/abs/2509.03501) | - |
 | 2025 | arXiv | VideoGLaMM | [VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos](https://arxiv.org/abs/2411.04923) | [Code](https://github.com/mbzuai-oryx/VideoGLaMM) |
 | 2025 | arXiv | VoCap | [VoCap: Video Object Captioning and Segmentation from Any Prompt](https://arxiv.org/abs/2508.21809) | - |
-| 2025 | CVPR | CaptionFormer | [CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](https://arxiv.org/abs/2510.14904) | [Code](https://github.com/gabfstr/CaptionFormer) |
+| 2026 | CVPR | CaptionFormer | [CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](https://arxiv.org/abs/2510.14904) | [Code](https://github.com/gabfstr/CaptionFormer) |
 
 ### 1.3 Audio-Visual Watching
 
@@ -581,7 +581,7 @@ Categorized into six capability dimensions.
 | 2025 | arXiv | SEED-Bench-R1 | [Exploring the Effect of Reinforcement Learning on Video Understanding: Insights from SEED-Bench-R1](https://arxiv.org/abs/2503.24376) | [Code](https://github.com/TencentARC/SEED-Bench-R1) |
 | 2026 | ICLR | VideoReasonBench | [VideoReasonBench: Can MLLMs Perform Vision-Centric Complex Video Reasoning?](https://arxiv.org/abs/2505.23359) | [Code](https://github.com/llyx97/video_reason_bench) |
 | 2025 | arXiv | Know-Show | [Know-Show: Benchmarking Video-Language Models on Spatio-temporal Grounded Reasoning](https://arxiv.org/abs/2510.10202) | - |
-| 2026 | arXiv | VideoZeroBench | [VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification](https://arxiv.org/abs/2604.01569) | - |
+| 2026 | arXiv | VideoZeroBench | [VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification](https://arxiv.org/abs/2604.01569) | [Code](https://github.com/marinero4972/VideoZeroBench) |
 | 2026 | ACL | GameplayQA | [GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](https://arxiv.org/abs/2603.24329) | [Project](https://hats-ict.github.io/gameplayqa/) |
 
 #### 5.2.4 Long-Context & Streaming Understanding
