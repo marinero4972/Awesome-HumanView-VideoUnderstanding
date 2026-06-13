@@ -292,7 +292,7 @@ Processing unbounded streams within fixed memory budgets via causal compression,
 | 2025 | NeurIPS | StreamForest | [StreamForest: Efficient Online Video Understanding with Persistent Event Memory](https://arxiv.org/abs/2509.24871) | - |
 | 2026 | arXiv | video-SALMONN S | [video-SALMONN S: Streaming Audio-Visual LLMs Beyond Length Limits via Memory](https://arxiv.org/abs/2510.11129) | - |
 | 2026 | ICLR | StreamingVLM | [StreamingVLM: Real-Time Understanding for Infinite Video Streams](https://arxiv.org/abs/2510.09608) | [Code](https://github.com/mit-han-lab/streaming-vlm) |
-
+| 2025 | CVPR | VideoChat-Online | [Online Video Understanding: OVBench and VideoChat-Online](https://arxiv.org/abs/2501.00584v2) | [Project](https://videochat-online.github.io/) |
 ---
 
 ## 3. Reason — How to Reason?
@@ -600,7 +600,7 @@ Categorized into six capability dimensions.
 | 2025 | CVPR | OmniMMI | [OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts](https://arxiv.org/abs/2503.22952) | [Project](https://omnimmi.github.io/) |
 | 2025 | ICCV | VStream-QA | [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](https://arxiv.org/abs/2406.08085) | [Code](https://github.com/IVGSZ/Flash-VStream) |
 | 2025 | NeurIPS | RTV-Bench | [RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](https://arxiv.org/abs/2505.02064) | [Code](https://github.com/LJungang/RTV-Bench) |
-
+| 2025 | CVPR | VideoChat-Online | [Online Video Understanding: OVBench and VideoChat-Online](https://arxiv.org/abs/2501.00584v2) | [Project](https://videochat-online.github.io/) |
 #### 5.2.5 Domain-Specific Knowledge
 
 | Year | Venue | Acronym | Paper | Code / Project |
