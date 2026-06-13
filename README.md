@@ -183,7 +183,7 @@ Whole-video, dense, and region-level captioning over visual-token sequences. Inc
 | 2025 | NeurIPS | Strefer | [Strefer: Empowering Video LLMs with Space-Time Referring and Reasoning via Synthetic Instruction Data](https://arxiv.org/abs/2509.03501) | - |
 | 2025 | arXiv | VideoGLaMM | [VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos](https://arxiv.org/abs/2411.04923) | [Code](https://github.com/mbzuai-oryx/VideoGLaMM) |
 | 2025 | arXiv | VoCap | [VoCap: Video Object Captioning and Segmentation from Any Prompt](https://arxiv.org/abs/2508.21809) | - |
-| 2025 | arXiv | MaskCaptioner | [MaskCaptioner: Learning to Jointly Segment and Caption Object Trajectories in Videos](https://arxiv.org/abs/2510.14904) | - |
+| 2025 | CVPR | CaptionFormer | [CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](https://arxiv.org/abs/2510.14904) | [Code](https://github.com/gabfstr/CaptionFormer) |
 
 ### 1.3 Audio-Visual Watching
 
