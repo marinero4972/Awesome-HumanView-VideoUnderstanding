@@ -374,6 +374,7 @@ Models that natively emit grounded reasoning traces (timestamps, boxes, captions
 | 2026 | ICML | Open-o3-Video | [Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evidence](https://arxiv.org/abs/2510.20579) | [Code](https://github.com/marinero4972/Open-o3-Video) |
 | 2025 | arXiv | Video-Thinker | [Video-Thinker: Sparking "Thinking with Videos" via Reinforcement Learning](https://arxiv.org/abs/2510.23473) | [Code](https://github.com/shijian2001/Video-Thinker) |
 | 2026 | ICLR | ReWatch-R1 | [ReWatch-R1: Boosting Complex Video Reasoning in Large Vision-Language Models through Agentic Data Synthesis](https://arxiv.org/abs/2509.23652) | [Code](https://github.com/alibaba/ReWatch-R1) |
+| 2026 | CVPR | VideoReasoner | [Incentivizing Versatile Video Reasoning in MLLMs via Data-Efficient Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Incentivizing_Versatile_Video_Reasoning_in_MLLMs_via_Data-Efficient_Reinforcement_Learning_CVPR_2026_paper.pdf) | [Code](https://github.com/Wang-Xiaodong1899/VideoReasoner) |
 
 ---
 
