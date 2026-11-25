@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 32594)
+Total output lines: 926
+
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/lxtGH/Awesome-HumanView-VideoUnderstanding/pulls)
 <br />
@@ -164,7 +167,7 @@ Whole-video, dense, and region-level captioning over visual-token sequences. Inc
 | 2024 | arXiv | PLLaVA | [PLLaVA: Parameter-free LLaVA Extension from Images to Videos for Video Dense Captioning](https://arxiv.org/abs/2404.16994) | [Code](https://github.com/magic-research/PLLaVA) |
 | 2024 | arXiv | Tarsier | [Tarsier: Recipes for Training and Evaluating Large Video Description Models](https://arxiv.org/abs/2407.00634) | [Code](https://github.com/bytedance/tarsier) |
 | 2024 | arXiv | LLaVA-Video | [Video Instruction Tuning with Synthetic Data](https://arxiv.org/abs/2410.02713) | [Code](https://github.com/LLaVA-VL/LLaVA-NeXT) |
-| 2024 | arXiv | Video ReCap | [Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250) | [Code](https://github.com/md-mohaiminul/VideoRecap) |
+| 2024 | CVPR 2024 | Video ReCap | [Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250) | [Code](https://github.com/md-mohaiminul/VideoRecap) |
 | 2025 | arXiv | LongCaptioning | [LongCaptioning: Unlocking the Power of Long Caption Generation in Large Multimodal Models](https://arxiv.org/abs/2502.15393) | - |
 | 2025 | ICML 2025 | SGC | [Fine-Grained Captioning of Long Videos through Scene Graph Consolidation](https://arxiv.org/abs/2502.16427) | - |
 | 2025 | ICLR 2025 | AuroraCap | [AuroraCap: Efficient, Performant Video Detailed Captioning and a New Benchmark](https://arxiv.org/abs/2410.03051) | [Code](https://github.com/rese1f/aurora) |
@@ -440,73 +443,8 @@ Agent loops with tools / memory / planning that orchestrate perception, retrieva
 | 2025 | arXiv | CoT-Vid | [CoT-Vid: Dynamic Chain-of-Thought Routing with Self Verification for Training-Free Video Reasoning](https://arxiv.org/abs/2505.11830) | - |
 | 2026 | VISAPP 2026 | ViQAgent | [ViQAgent: Zero-Shot Video Question Answering via Agent with Open-Vocabulary Grounding Validation](https://arxiv.org/abs/2505.15928) | [Code](https://github.com/t-montes/viqagent) |
 | 2025 | NeurIPS 2025 | Vgent | [Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding](https://arxiv.org/abs/2510.14032) | [Project](https://xiaoqian-shen.github.io/Vgent/) |
-| 2025 | arXiv | StreamAgent | [StreamAgent: Towards Anticipatory Agents for Streaming Video Understanding](https://arxiv.org/abs/2508.01875) | - |
-| 2026 | arXiv | — | [What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference](https://arxiv.org/abs/2611.26776) | [Code](https://github.com/amine0110/evidence-graph-agents) |
-| 2026 | arXiv | VideoDetective | [VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding](https://arxiv.org/abs/2603.22285) | [Code](https://github.com/yangruoliu/VideoDetective) |
-| 2026 | CVPR 2026 | EVA | [EVA: Efficient Reinforcement Learning for End-to-End Video Agent](https://arxiv.org/abs/2603.22918) | [Code](https://github.com/wangruohui/EfficientVideoAgent) |
-| 2026 | arXiv | ToolMerge | [Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval](https://arxiv.org/abs/2605.23826) | [Code](https://github.com/michalsr/ToolMerge) |
-| 2026 | arXiv | Robust-TO | [Confidence-Aware Tool Orchestration for Robust Video Understanding](https://arxiv.org/abs/2606.26904) | [Code](https://github.com/ROVA-V2/Robust-TO) |
-| 2026 | ACL 2026 MAGMaR Workshop | TRACE | [TRACE: Evidence Grounding-Guided Multi-Video Event Understanding and Claim Generation](https://arxiv.org/abs/2605.16740) | [Code](https://github.com/pengyu965/TRACE) |
-| 2026 | CVPR 2026 | Symphony | [Symphony: A Cognitively-Inspired Multi-Agent System for Long-Video Understanding](https://openaccess.thecvf.com/content/CVPR2026/html/Yan_Symphony_A_Cognitively-Inspired_Multi-Agent_System_for_Long-Video_Understanding_CVPR_2026_paper.html) | [Code](https://github.com/Haiyang0226/Symphony) |
-| 2026 | arXiv | DynFrame | [DynFrame: Adaptive Reasoning-Driven Multimodal Framework with Dynamic Frame Augmentation for Complex Video Understanding](https://arxiv.org/abs/2605.26680) | [Code](https://github.com/zhangguanghao523/DynFrame) |
-| 2026 | arXiv | AgentCVR | [AgentCVR: Active Multi-Agent Cross-Video Reasoning via Script-Simulated Reinforcement Learning](https://arxiv.org/abs/2605.29643) | [Code](https://github.com/wang-jh24/AgentCVR) |
-| 2026 | ECCV 2026 | VideoSearch-R1 | [VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement](https://arxiv.org/abs/2607.00446) | [Code](https://github.com/mlvlab/VideoSearch-R1) |
-| 2026 | EMNLP 2026 | OmniReasoner | [OmniReasoner: Thinking with Long Audio-Video via Native Tool Use](https://aclanthology.org/2026.emnlp-main.2157/) | [Code](https://github.com/RockyChen0205/OmniReasoner) |
-
-### 3.2 Text-only Reasoning — Non-Agent
-
-CoT-style supervised fine-tuning and RL/DPO post-training without tool-driven control loops.
-
-| Year | Venue | Acronym | Paper | Code / Project |
-| :---: | :---: | :---: | :--- | :---: |
-| 2025 | arXiv | Chain-of-Frames | [Chain-of-Frames: Advancing Video Understanding in Multimodal LLMs via Frame-Aware Reasoning](https://arxiv.org/abs/2506.00318) | [Code](https://github.com/SaraGhazanfari/CoF) |
-| 2025 | NeurIPS 2025 | Video-R1 | [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776) | [Code](https://github.com/tulerfeng/Video-R1) |
-| 2026 | ECCV 2026 | TW-GRPO | [Reinforcing Video Reasoning with Focused Thinking](https://arxiv.org/abs/2505.24718) | [Code](https://github.com/longmalongma/TW-GRPO) |
-| 2025 | ICML 2025 | VistaDPO | [VistaDPO: Video Hierarchical Spatial-Temporal Direct Preference Optimization for Large Video Models](https://arxiv.org/abs/2504.13122) | [Code](https://github.com/HaroldChen19/VistaDPO) |
-| 2025 | arXiv | VerIPO | [VerIPO: Cultivating Long Reasoning in Video-LLMs via Verifier-Guided Iterative Policy Optimization](https://arxiv.org/abs/2505.19000) | [Code](https://github.com/HITsz-TMG/VerIPO) |
-| 2025 | arXiv | VidBridge-R1 | [VidBridge-R1: Bridging QA and Captioning for RL-based Video Understanding Models with Intermediate Proxy Tasks](https://arxiv.org/abs/2506.09079) | - |
-| 2025 | arXiv | video-SALMONN-o1 | [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) | [Code](https://github.com/BriansIDP/video-SALMONN-o1) |
-| 2025 | NeurIPS 2025 | VideoRFT | [VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](https://arxiv.org/abs/2505.12434) | [Code](https://github.com/QiWang98/VideoRFT) |
-| 2025 | NeurIPS 2025 | Time-R1 | [Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding](https://arxiv.org/abs/2503.13377) | [Code](https://github.com/xiaomi-research/time-r1) |
-| 2025 | NeurIPS 2025 | DeepVideo-R1 | [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://arxiv.org/abs/2506.07464) | [Code](https://github.com/mlvlab/DeepVideoR1) |
-| 2025 | ACM MM 2025 | Video-CoT | [Video-CoT: A Comprehensive Dataset for Spatiotemporal Understanding of Videos Based on Chain-of-Thought](https://arxiv.org/abs/2506.08817) | [Project](https://video-cot.github.io/) |
-| 2025 | arXiv | SpaceR | [SpaceR: Reinforcing MLLMs in Video Spatial Reasoning](https://arxiv.org/abs/2504.01805) | [Code](https://github.com/OuyangKun10/SpaceR) |
-| 2025 | arXiv | vsGRPO | [Improved Visual-Spatial Reasoning via R1-Zero-like Training](https://arxiv.org/abs/2504.00883) | [Code](https://github.com/zhijie-group/R1-Zero-VSI) |
-| 2025 | arXiv | VIDEO-STR | [Video-STR: Reinforcing MLLMs in Video Spatio-Temporal Reasoning with Relation Graph](https://arxiv.org/abs/2510.10976) | - |
-| 2025 | arXiv | SpatialLadder | [SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2510.08531) | - |
-| 2025 | arXiv | Cambrian-S | [Cambrian-S: Towards Spatial Supersensing in Video](https://arxiv.org/abs/2511.04670) | [Code](https://github.com/cambrian-mllm/cambrian-s) |
-| 2025 | arXiv | Video-R2 | [Video-R2: Reinforcing Consistent and Grounded Reasoning in Multimodal Language Models](https://arxiv.org/abs/2511.23478) | [Code](https://github.com/mbzuai-oryx/Video-R2) |
-| 2026 | arXiv | VidGround | [Watch Before You Answer: Learning from Visually Grounded Post-Training](https://arxiv.org/abs/2604.05117) | [Code](https://github.com/reacher-z/vidground) |
-| 2026 | ECCV 2026 | ClueNet | [Clue Matters: Empower Video Reasoning with Brain-Inspired Latent Clue Learning](https://arxiv.org/abs/2603.15008) | - |
-| 2026 | arXiv | EasyVideoR1 | [EasyVideoR1: Easier RL for Video Understanding](https://arxiv.org/abs/2604.16893) | [Code](https://github.com/cyuQ1n/EasyVideoR1) |
-| 2026 | arXiv | Video-ToC | [Video-ToC: Video Tree-of-Cue Reasoning](https://arxiv.org/abs/2604.20473) | [Code](https://github.com/qizhongtan/Video-ToC) |
-| 2026 | arXiv | Best-of-N Video Reasoning | [Selecting or Solving? What Best-of-N Verification Delivers in Video Reasoning](https://arxiv.org/abs/2611.00507) | [Code](https://github.com/facebookresearch/best-n-selection-video-reasoning) |
-| 2026 | arXiv | TurnWise | [Turns Matter: Advancing Streaming Video RL via Turn-Level Credit](https://arxiv.org/abs/2611.06728) | [Code](https://github.com/XD111ds/turn-wise-rl) |
-| 2026 | NeurIPS 2026 | VIOS | [Watching Itself Watch: Self-Auditing Visual Reliance for Video Reasoning](https://arxiv.org/abs/2611.11949) | [Project](https://vision.cs.utexas.edu/projects/VIOS/) |
-| 2026 | arXiv | EVAThink | [EVAThink: Evidence Sufficiency-Guided Training for Adaptive Thinking in Video Understanding](https://arxiv.org/abs/2611.13907) | [Code](https://github.com/ChangtiWu/EVAThink) |
-| 2026 | arXiv | SAVER | [Less from More: Reinforcing Sparse Video Reasoning from Dense References](https://arxiv.org/abs/2610.10893) | [Code](https://github.com/lmsdss/SAVER) |
-| 2026 | NeurIPS 2026 | Motion-o | [Motion-o: Trajectory-Grounded Video Reasoning](https://arxiv.org/abs/2603.18856) | [Code](https://github.com/ostadabbas/Motion-o) |
-| 2026 | EMNLP 2026 | Future-L1 | [Imagine Before You Predict: Interleaved Latent Visual Reasoning for Video Event Prediction](https://arxiv.org/abs/2606.05769) | [Code](https://github.com/OpenGVLab/Future-L1) |
-| 2026 | NeurIPS 2026 | Video-FLAIR | [Video-FLAIR: Not Whether to Reason, But How](https://arxiv.org/abs/2608.26495) | - |
-| 2026 | NeurIPS 2026 | BPO | [Behavior Pack Optimization for Video MLLM Post-Training](https://arxiv.org/abs/2610.03141) | - |
-| 2026 | NeurIPS 2026 | Before It Fades | [Before It Fades: Reinforcing Temporal Representations at Inference Time in VideoLLMs](https://arxiv.org/abs/2610.01595) | [Code](https://github.com/Youngwoo-git/Before-It-Fades) |
-| 2026 | NeurIPS 2026 | CLEAR | [Diagnosing and Correcting Bias in MLLM for Long Video Understanding](https://openreview.net/forum?id=EtgXlsMo0V) | - |
-| 2026 | NeurIPS 2026 | EventLens | [EventLens: Event-Structure Reinforcement Learning for Video Understanding](https://arxiv.org/abs/2610.16172) | [Project](https://lostgreen.github.io/EventLens/) |
-
-### 3.3 Thinking with Videos — Agentic
-
-Models that interleave reasoning with explicit visual grounding and re-inspection (o3-style "thinking with images" extended to video).
-
-| Year | Venue | Acronym | Paper | Code / Project |
-| :---: | :---: | :---: | :--- | :---: |
-| 2025 | NeurIPS 2025 | VideoChat-R1.5 | [VideoChat-R1.5: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception](https://arxiv.org/abs/2509.21100) | [Code](https://github.com/OpenGVLab/VideoChat-R1) |
-| 2025 | NeurIPS 2025 | Pixel Reasoner | [Pixel Reasoner: Incentivizing Pixel-Space Reasoning with Curiosity-Driven Reinforcement Learning](https://arxiv.org/abs/2505.15966) | [Code](https://github.com/TIGER-AI-Lab/Pixel-Reasoner) |
-| 2026 | ICLR 2026 | VideoZoomer | [VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning](https://arxiv.org/abs/2512.22315) | [Code](https://github.com/zsgvivo/VideoZoomer) |
-| 2026 | CVPR 2026 | VITAL | [Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](https://arxiv.org/abs/2508.04416) | [Project](https://zhang9302002.github.io/thinkingwithvideos-page/) |
-| 2025 | arXiv | FrameMind | [FrameMind: Frame-Interleaved Video Reasoning via Reinforcement Learning](https://arxiv.org/abs/2509.24008) | [Project](https://framemind.github.io/) |
-| 2025 | NeurIPS 2025 | ViLaSR | [Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing](https://arxiv.org/abs/2506.09965) | [Code](https://github.com/antresearchnlp/vilasr) |
-| 2025 | arXiv | CyberV | [CyberV: Cybernetics for Test-time Scaling in Video Understanding](https://arxiv.org/abs/2506.07971) | [Code](https://github.com/marinero4972/CyberV) |
-| 2026 | CVPR 2026 Findings | AVP | [Active Video Perception: Iterative Evidence Seeking for Agentic Long Video Understanding](https://arxiv.org/abs/2512.05774) | - |
+| 2026 | EMNLP 2026 Findings | StreamAgent | [StreamAgent: Towards Anticipatory Agents for Streaming Video Understanding](https://arxiv.org/abs/2508.01875) | - |
+| 2026 | arXiv | — | [What Helps Language-Model Agents Review Violent Video? A Controlled Comparison with a Human Evidence Reference](https://arxiv.org/abs/2611.26776) | [Code](https://github.com/amin…2594 tokens truncated…deo Perception: Iterative Evidence Seeking for Agentic Long Video Understanding](https://arxiv.org/abs/2512.05774) | - |
 | 2025 | arXiv | LOVE-R1 | [LOVE-R1: Advancing Long Video Understanding with an Adaptive Zoom-in Mechanism via Multi-Step Reasoning](https://arxiv.org/abs/2509.24786) | [Code](https://github.com/HumanMLLM/LOVE-R1) |
 | 2025 | arXiv | LongVT | [LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](https://arxiv.org/abs/2511.20785) | [Code](https://github.com/EvolvingLMMs-Lab/LongVT) |
 | 2026 | CVPR 2026 | Conan | [Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](https://arxiv.org/abs/2510.20470) | [Code](https://github.com/ariesssxu/Conan-Active-Reasoning) |
@@ -529,7 +467,7 @@ Models that interleave reasoning with explicit visual grounding and re-inspectio
 | 2026 | ECCV 2026 | Reflect-R1 | [Reflect-R1: Evidence-Driven Reflection for Self-Correction in Long Video Understanding](https://arxiv.org/abs/2606.27922) | [Code](https://github.com/ShuimuChen-hyq/Reflect-R1) |
 | 2026 | arXiv | Video-RSI | [Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution](https://arxiv.org/abs/2609.37950) | [Code](https://github.com/bingjunluo/Video-RSI) |
 | 2026 | arXiv | VideoHarness-RSI | [VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models](https://arxiv.org/abs/2608.24302) | [Code](https://github.com/Tencent/VideoHarness-RSI) |
-| 2026 | arXiv | Video-DeepResearch | [Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent](https://arxiv.org/abs/2608.03979) | [Code](https://github.com/Osilly/Vision-DeepResearch/tree/main/Video-DeepResearch) |
+| 2026 | EMNLP 2026 Findings | Video-DeepResearch | [Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent](https://arxiv.org/abs/2608.03979) | [Code](https://github.com/Osilly/Vision-DeepResearch/tree/main/Video-DeepResearch) |
 | 2026 | arXiv | AdaVDR | [AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research](https://arxiv.org/abs/2608.25559) | [Project](https://github.com/Accio-Lab/AdaVDR) |
 | 2026 | arXiv | Tempo-Zero | [Tempo-Zero: Recursive Self-Play in Executable Worlds for Video Reasoning](https://arxiv.org/abs/2610.32433) | [Project](https://alchemist-jo.github.io/tempo-zero/) |
 
@@ -575,7 +513,7 @@ Domain-specific scenarios that stress different combinations of perception, memo
 | 2026 | arXiv | APM-Bench | [APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants](https://arxiv.org/abs/2609.37559) | [Code](https://github.com/Jianguo-Huang11/APM-Bench) |
 | 2026 | arXiv | EgoWitness | [EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams](https://arxiv.org/abs/2611.25849) | [Code](https://github.com/egowitness/EgoWitness) |
 | 2026 | arXiv | EgoCaptioner | [EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning](https://arxiv.org/abs/2611.26380) | [Project](https://cactusqq.github.io/EgoCaptioner/) |
-| 2026 | arXiv | EgoTools | [EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos](https://arxiv.org/abs/2609.39378) | [Code](https://github.com/Ropedia/EgoTools) |
+| 2026 | EMNLP 2026 | EgoTools | [EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos](https://arxiv.org/abs/2609.39378) | [Code](https://github.com/Ropedia/EgoTools) |
 | 2026 | ECCV 2026 | EgoVITA | [EgoVITA: Learning to Plan and Verify for Egocentric Video Reasoning](https://arxiv.org/abs/2511.18242) | [Project](https://people-robots.github.io/EgoVITA/) |
 
 ### 4.2 Sports Videos
@@ -778,7 +716,7 @@ Categorized into six capability dimensions.
 | 2025 | CVPR 2025 | MotionBench | [MotionBench: Benchmarking and Improving Fine-grained Video Motion Understanding for Vision Language Models](https://arxiv.org/abs/2501.02955) | [Code](https://github.com/THUDM/MotionBench) |
 | 2025 | arXiv | DSI-Bench | [DSI-Bench: A Benchmark for Dynamic Spatial Intelligence](https://arxiv.org/abs/2510.18873) | [Code](https://github.com/SpatialVision/dsibench) |
 | 2025 | ICCV 2025 | STI-Bench | [STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?](https://arxiv.org/abs/2503.23765) | [Code](https://github.com/MINT-SJTU/STI-Bench) |
-| 2026 | arXiv | ExtremeWhenBench | [Natural-Language Temporal Grounding in Hour-Long Videos is a Search Problem: A Benchmark and Empirical Decomposition](https://arxiv.org/abs/2606.12300) | [Code](https://github.com/naver-ai/ExtremeWhenBench) |
+| 2026 | EMNLP 2026 | ExtremeWhenBench | [Natural-Language Temporal Grounding in Hour-Long Videos is a Search Problem: A Benchmark and Empirical Decomposition](https://arxiv.org/abs/2606.12300) | [Code](https://github.com/naver-ai/ExtremeWhenBench) |
 | 2026 | arXiv | Moment-Video | [Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events](https://arxiv.org/abs/2606.02522) | - |
 | 2026 | NeurIPS 2026 | CoMET-Bench | [Conditional Multi-Event Temporal Grounding in Long-Form Video](https://arxiv.org/abs/2606.15320) | - |
 | 2026 | arXiv | AnyGroundBench | [AnyGroundBench: A Multi-Domain Adaptation Benchmark for Video Grounding in VLMs](https://arxiv.org/abs/2607.02269) | [Code](https://github.com/rinost081/AnyGroundBench) |
@@ -840,7 +778,7 @@ Categorized into six capability dimensions.
 | 2026 | NeurIPS 2026 | SPOT-Bench | [Don't Pause! Every prediction matters in a streaming video](https://arxiv.org/abs/2604.24317) | [Code](https://github.com/dibschat/SPOT-Bench) |
 | 2026 | NeurIPS 2026 | IPIBench | [IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams](https://arxiv.org/abs/2605.27074) | - |
 | 2026 | NeurIPS 2026 | EGOSTREAM | [EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision](https://arxiv.org/abs/2605.31557) | [Project](https://saroo25.github.io/Egostream/) |
-| 2026 | arXiv | X-Stream | [X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding](https://arxiv.org/abs/2606.02482) | [Code](https://github.com/PeiwenSun2000/X-Stream) |
+| 2026 | ECCV 2026 | X-Stream | [X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding](https://arxiv.org/abs/2606.02482) | [Code](https://github.com/PeiwenSun2000/X-Stream) |
 | 2026 | EMNLP 2026 | OVO-S-Bench | [OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs](https://arxiv.org/abs/2606.03890) | [Code](https://github.com/InternLM/OVO-S-Bench) |
 | 2026 | EMNLP 2026 Findings | StreamMemBench | [StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance](https://arxiv.org/abs/2606.14571) | [Code](https://github.com/landian60/StreamMemBench) |
 | 2026 | arXiv | TRACE | [TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding](https://arxiv.org/abs/2609.30670) | [Code](https://github.com/om-ai-lab/trace-bench) |
@@ -856,7 +794,7 @@ Categorized into six capability dimensions.
 | 2026 | ICLR 2026 | ExpVid | [ExpVid: A Benchmark for Experiment Video Understanding & Reasoning](https://arxiv.org/abs/2510.11606) | [Code](https://github.com/OpenGVLab/ExpVid) |
 | 2025 | ICCVW 2025 | Video-MMLU | [Video-MMLU: A Massive Multi-Discipline Lecture Understanding Benchmark](https://arxiv.org/abs/2504.14693) | [Code](https://github.com/Espere-1119-Song/Video-MMLU) |
 | 2025 | arXiv | BEAR | [BEAR: Benchmarking and Enhancing Multimodal Language Models for Atomic Embodied Capabilities](https://arxiv.org/abs/2510.08759) | [Code](https://github.com/aiwen-li/BEAR) |
-| 2026 | arXiv | DVBench | [DVBench: Benchmarking MLLMs for Understanding Dynamic Charts and Narratives in Data Videos](https://arxiv.org/abs/2608.29711) | [Project](https://bomiaowang.github.io/DVBench/) |
+| 2026 | EMNLP 2026 Findings | DVBench | [DVBench: Benchmarking MLLMs for Understanding Dynamic Charts and Narratives in Data Videos](https://arxiv.org/abs/2608.29711) | [Project](https://bomiaowang.github.io/DVBench/) |
 | 2026 | arXiv | DataVista | [DataVista: Diagnosing Multimodal LLMs on Data Video Understanding](https://arxiv.org/abs/2610.11993) | [Code](https://github.com/HKUSTDial/DataVista) |
 | 2026 | CVPR 2026 | Ego2Web | [Ego2Web: A Web Agent Benchmark Grounded in Egocentric Videos](https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Ego2Web_A_Web_Agent_Benchmark_Grounded_in_Egocentric_Videos_CVPR_2026_paper.html) | [Code](https://github.com/Yui010206/Ego2Web) |
 | 2026 | NeurIPS 2026 | EgoBench | [EgoBench: An Interactive Egocentric Multimodal Benchmark for Tool-Using Agents](https://arxiv.org/abs/2605.27820) | [Code](https://github.com/Wind-Flipped/EgoBench) |
@@ -884,7 +822,7 @@ Categorized into six capability dimensions.
 | 2026 | ECCV 2026 | Video-HolmesV2 | [Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-Visual Evidence in Long Videos?](https://arxiv.org/abs/2609.17248) | - |
 | 2026 | arXiv | OmniCompass | [OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding](https://arxiv.org/abs/2610.18829) | [Code](https://github.com/PolyU-VCLab/OmniCompass) |
 | 2026 | arXiv | OmniPro | [OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding](https://arxiv.org/abs/2605.18577) | [Code](https://github.com/RuixiangZhao/OmniPro) |
-| 2026 | arXiv | OmniInteract | [OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants](https://arxiv.org/abs/2605.26485) | [Code](https://github.com/Lucky-Lance/OmniInteract) |
+| 2026 | EMNLP 2026 | OmniInteract | [OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants](https://arxiv.org/abs/2605.26485) | [Code](https://github.com/Lucky-Lance/OmniInteract) |
 | 2026 | arXiv | OmniCap-IF | [OmniCap-IF: Benchmarking and Improving Instruction Following Abilities for Omni-Video Captioning](https://arxiv.org/abs/2606.08572) | [Code](https://github.com/NJU-LINK/omnicap-if) |
 | 2026 | arXiv | OmniAssistBench | [OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs](https://arxiv.org/abs/2608.21360) | [Code](https://github.com/XianyunSun/OmniAssistBench) |
 | 2026 | arXiv | AVID | [AVID: A Benchmark for Omni-Modal Audio-Visual Inconsistency Understanding via Agent-Driven Construction](https://arxiv.org/abs/2604.13593) | - |
